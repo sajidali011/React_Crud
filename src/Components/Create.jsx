@@ -9,7 +9,6 @@ function Create() {
   const [alertMessage, setAlertMessage] = useState('');
   const [showAlert, setShowAlert] = useState(false);
   const navigate = useNavigate();
-
   // Form submit handler
   const handleSubmit = (e) => {
     e.preventDefault();
